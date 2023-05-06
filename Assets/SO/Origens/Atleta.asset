@@ -17,4 +17,4 @@ MonoBehaviour:
   periciasTreinadas:
   - Acrobacia
   - Atletismo
-  habilidade: {fileID: 0}
+  habilidade: {fileID: 11400000, guid: bb71d4ceb6ac5e6488248f1d20f07843, type: 2}

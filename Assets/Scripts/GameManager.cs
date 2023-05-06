@@ -10,9 +10,9 @@ public class GameManager : MonoBehaviour
     public bool isMenu = false;
 
     public Ficha FichaDoPlayer;
+    public FichaBuilder builder;
 
-    public Origem origemTeste;
-    public Classe classeTeste;
+    
 
     private void Awake()
     {
@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
 
         if (FichaDoPlayer == null)
         {
-            FichaDoPlayer = new Ficha(origemTeste, classeTeste);
+            builder.NewFicha();
         }
 
         FichaDoPlayer.InitializeFicha();

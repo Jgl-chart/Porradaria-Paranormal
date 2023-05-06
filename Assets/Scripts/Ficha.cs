@@ -22,8 +22,8 @@ public class Ficha
 
     public Dictionary<string, int> Pericias = new Dictionary<string, int>();
 
-    public List<Habilidade> Habilidades;
-    public List<Ritual> Rituais;
+    public List<Habilidade> Habilidades = new List<Habilidade>();
+    public List<Ritual> Rituais = new List<Ritual>();
 
     public Ficha(Origem origenh, Classe classenh)
     {

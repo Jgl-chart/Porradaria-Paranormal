@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Combatente
   Description: "\xC9 um Combatente"
-  HabilidadesIniciais: []
+  HabilidadesIniciais:
+  - {fileID: 11400000, guid: bf10add8f252c6240b039c3d71614d76, type: 2}
   PericiasTreinadas: []
   PV_INICIAl: 20
   PV_POR_NEX: 4

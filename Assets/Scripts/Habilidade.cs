@@ -2,17 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Habilidade : MonoBehaviour
+[CreateAssetMenu(fileName = "Habilidade", menuName = "Scriptable Objects/Habilidade")]
+public class Habilidade : ScriptableObject
 {
     public string Name;
     public string Description;
     public int PE_COAST;
 
-    public abstract void Action();
+    public GameObject thingToAdd;
 
-    private void Start()
-    {
-        
-    }
+    
 
 }
