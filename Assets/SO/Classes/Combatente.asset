@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2170df7dde22e374f91fce870eb4e09b, type: 3}
+  m_Name: Combatente
+  m_EditorClassIdentifier: 
+  Name: Combatente
+  Description: "\xC9 um Combatente"
+  HabilidadesIniciais: []
+  PericiasTreinadas: []
+  PV_INICIAl: 20
+  PV_POR_NEX: 4
+  PE_INICIAl: 2
+  PE_POR_NEX: 2
+  SAN_INICIAl: 12
+  SAN_POR_NEX: 3
